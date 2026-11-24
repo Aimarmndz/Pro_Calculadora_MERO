@@ -1,8 +1,8 @@
 """Operaciones aritmeticas basicas."""
 
 
-def suma(a, b):
-    return a + b
+def suma(a, b, *resto):
+    return a + b + sum(resto)
 
 
 def resta(a, b):
